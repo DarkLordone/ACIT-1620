@@ -72,16 +72,8 @@ p, ul {
     color: black;
 }
 
-    a.hover1 {
-    background-color: #0000ff;
-}
-
-    a.hover2 {
-    background-color: rgb(255,0,0);
-}
-
-    a.hover3 {
-    background-color: green;
+.projects a:hover {
+    background-color: blue;
 }
 
 .footer a {
@@ -89,3 +81,11 @@ p, ul {
     text-decoration: none;
 }
 
+.operation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.operation a:hover {
+    color: blue;
+}
