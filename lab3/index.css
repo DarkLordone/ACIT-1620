@@ -16,7 +16,7 @@ footer {
     background-color: black;
     color: white;
     text-align: left;
-    padding: 40px 0;
+    padding: 40px ;
 }
 
 header h1 {
@@ -72,15 +72,15 @@ p, ul {
     color: black;
 }
 
-.projects a:nth-child(1):hover {
+    a.hover1 {
     background-color: #0000ff;
 }
 
-.projects a:nth-child(2):hover {
+    a.hover2 {
     background-color: rgb(255,0,0);
 }
 
-.projects a:nth-child(3):hover {
+    a.hover3 {
     background-color: green;
 }
 
@@ -88,3 +88,4 @@ p, ul {
     color: aqua;
     text-decoration: none;
 }
+
